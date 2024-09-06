@@ -1,0 +1,27 @@
+from turtle import *
+
+fillcolor("brown")
+begin_fill()
+forward(200)
+left(120)
+forward(200)
+left(120)
+forward(200)
+end_fill()
+fillcolor("green")
+begin_fill()
+left(30)
+for i in range(5):
+    forward(200)
+    left(90)
+end_fill()
+fillcolor("lightgreen")
+forward(120)
+begin_fill()
+for i in range(2):
+    left(90)
+    forward(120)
+    left(90)
+    forward(40)
+end_fill()
+mainloop()
